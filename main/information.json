@@ -54,56 +54,48 @@
   "projects": [
     {
       "id": 1,
-      "title": "Nxt Trendz - Ecommerce Application",
-      "description": "Nxt Trendz is an eCommerce web application inspired by Amazon and Flipkart. Built using React.js, REST APIs, and JWT Authentication, it enables secure login, product browsing, search, filters, and sorting. Implemented state management, protected routes, and local storage for a seamless user experience. Focused on responsive UI and efficient API integration to ensure real-world usability.",
-      "technologies_used": "React JS, JavaScript, Routing, REST API Calls, CSS, Bootstrap, Authentication, Local Storage, JWT Token, Authorization",
-      "project_live_url": "https://nxt-trendz-ecommerce-bice.vercel.app/",
-      "github_url": "https://github.com/Kavya-Mummadi/NxtTrendz",
-      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756820938/Screenshot_2025-09-02_191839_cr7tcy.png"
-    },
-    {
-      "id": 2,
-      "title": "Jobby App – Job Search Platform",
-      "description": "Jobby App is a job searching platform that allows users to browse jobs, view detailed job descriptions, and apply securely. Built with React components, form inputs, and event handlers, it includes pages for Login, Home, Jobs, and Job details. Implemented secure authentication with JWT tokens, REST API calls, and React Router for protected routes. Persisted login sessions using local storage, ensuring a smooth and reliable user experience.",
-      "technologies_used": "React JS, Routing, JavaScript, CSS, REST API Calls, Bootstrap, Local Storage, Authentication, JWT Token, Authorization",
+      "title": "Allianz Sub-Hub Application",
+      "description": "Created and maintained APIs for the Allianz Submission Hub Project using Unqork, Eigen and JavaScript, Designed and developed an intelligent PDF viewer within the Unqork platform to display extracted entity data alongside the original document with interactive highlights, Implemented secure document rendering, download, and print functionality using PDF.js, Blob APIs, and custom AngularJS directives, Developed robust logic for scrolling to specific highlights, fallback handling when coordinates are unavailable, and smooth integration with asynchronous data fetching.",
+      "technologies_used": "Unqork, Eigen, JavaScript, CSS, HTML",
       "project_live_url": "https://mkjobby.ccbp.tech/",
       "github_url": "https://github.com/MummadiKavya/JobbyApp",
       "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756825653/Screenshot_2025-09-02_203442_zotjvp.png"
     },
     {
-      "id": 3,
+      "id": 2,
       "title": "NxtWatch – Video Streaming Platform",
-      "description": "NxtWatch is a YouTube-inspired video streaming platform where users can explore Trending, Gaming, and Saved videos, and search for specific content. Built with React components, form inputs, and event handlers, it includes Login, Home, Trending, Gaming, and Saved pages. Secure authentication is implemented using JWT tokens, HTTP API calls, and React Router for protected routes, with sessions persisted in local storage for a smooth, responsive, and engaging experience.",
+      "description": " Implemented Next Watch application which is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, saved videos, and can search videos and view specific video details, and users can toggle the theme (Light/Dark).",
+      "technologies_used": "React JS, JavaScript, Routing, REST API Calls, CSS, Bootstrap, Authentication, Local Storage, JWT Token, Authorization",
+      "project_live_url": "https://sushmanxtwatch.ccbp.tech/",
+      "github_url": " https://github.com/vasamsettisushma/myLearningVidoes.git",
+      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1757065661/Screenshot_2025-09-05_151414_kr0kxk.png"
+    },
+    {
+      "id": 3,
+      "title": "portfolio",
+      "description": "A modern, responsive, and dynamic portfolio website to showcase my skills, projects, and experiences. Built with a focus on clean design, smooth user interactions, and professional presentation, This portfolio website serves as a personal showcase for my work as a web developer. It highlights my projects, skills, achievements, and provides a smooth contact experience for potential collaborators or employers.",
       "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls, Local Storage, JWT Token, Authentication, Authorization",
       "project_live_url": "https://nxtwatch.ccbp.tech/",
-      "github_url": "https://github.com/MummadiKavya/NxtWatch",
-      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1757065661/Screenshot_2025-09-05_151414_kr0kxk.png"
+      "github_url": "",
+      "project_image_url": ""
     }
   ],
   "experience": [
     {
       "id": 1,
-      "company_name": "InternPe",
-      "role": "Web Development Intern",
-      "duration": "July 2024 - Aug 2024",
-      "role_description": "During my Web Development Internship at InternPe, I built responsive web applications using HTML, CSS, and JavaScript, including a To-Do App, E-Commerce site, and Calculator. I focused on creating clean, user-friendly interfaces while strengthening problem-solving and debugging skills. This experience provided practical exposure to professional coding practices and delivering functional, real-world projects. I also collaborated with mentors and peers to optimize code efficiency and ensure cross-browser compatibility. Additionally, I gained hands-on experience in version control, project planning, and implementing best practices for scalable web development.",
-      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_091859_yeot0k.png"
+      "company_name": "Aiden AI",
+      "role": "Software Engineer",
+      "duration": "September 2025 - Present",
+      "role_description": "I am an enthusiastic software developer with 2 year of hands-on-experience in building scalable applications using low-code and no-code platforms like Unqork with Assosiate Certification. Over the past year, I have developed a solid understanding of application design and basic understanding of project creation in ZOHO Pages and ZOHO Creator, workflow automation and Integration with third-party services like Eigen to deliver the next generation in intelligent data extraction and document processing with cutting-edge NLP delivering superior results.",
+      "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
     },
     {
       "id": 2,
-      "company_name": "ExcelR",
-      "role": "MERN Stack Intern",
-      "duration": "May 2025 - July 2025",
-      "role_description": "During my MERN Stack Internship at ExcelR Edtech Pvt. Ltd., organized in collaboration with the Andhra Pradesh State Council of Higher Education, I gained hands-on experience in building full-stack applications using MongoDB, Express.js, React.js, and Node.js. I worked on developing scalable backend APIs, integrating databases, and designing responsive frontend interfaces. This internship allowed me to strengthen my problem-solving abilities, enhance my understanding of modern web technologies, and apply industry-standard coding practices in real-world projects.",
-      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_092037_kr5yzt.png"
-    },
-    {
-      "id": 3,
-      "company_name": "Btech Walleh",
-      "role": "Software Development Intern",
-      "duration": "May 2025 - July 2025",
-      "role_description": "During my 7-week Software Development Internship at Btech Walleh, organized under the AICTE Internship Program, I gained hands-on experience in building and enhancing web applications. I worked on developing backend logic, managing databases, and implementing frontend features to ensure seamless functionality. This internship allowed me to strengthen my problem-solving skills, improve my understanding of software engineering practices, and apply collaborative coding techniques in real-world projects. It provided practical exposure to professional workflows and boosted my confidence in delivering reliable, user-friendly solutions.",
-      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_091925_zorx6a.png"
+      "company_name": "Acunor",
+      "role": "Software Engineer",
+      "duration": "December 2021 - August 2025",
+      "role_description": "Designed and configured enterprise applications using Unqork no-code platform, reducing development time by 40%. Integrated Unqork workflows with third-party APIs (REST/SOAP) for seamless data exchange. Built dynamic forms, workflows, and dashboards to streamline business processes in insurance and financial domains. Collaborated with cross-functional teams to deliver scalable, production-ready Unqork applications in an Agile environment.",
+      "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
     }
   ],
   "skills": [
@@ -145,68 +137,44 @@
     },
     {
       "id": 7,
-      "skill_name": "Express",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815690/expressjs_btzyrk.png",
-      "category_id": 2
-    },
-    {
-      "id": 8,
       "skill_name": "Node.js",
       "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813030/nodejs-img_kwuwx4.png",
       "category_id": 2
     },
     {
-      "id": 9,
-      "skill_name": "SQLite",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813029/sqlite-img_jy20me.png",
-      "category_id": 2
-    },
-    {
-      "id": 10,
-      "skill_name": "MongoDB",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815393/mongo_xeb3cp.png",
-      "category_id": 2
-    },
-    {
-      "id": 11,
-      "skill_name": "C++",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815337/c_icon_jysha0.png",
-      "category_id": 4
-    },
-    {
-      "id": 12,
-      "skill_name": "DSA",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815778/dsa-icon_pgma8c.jpg",
-      "category_id": 4
-    },
-    {
-      "id": 13,
+      "id": 8,
       "skill_name": "Flexbox",
       "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/flexbox_oiovj6.png",
       "category_id": 4
     },
     {
-      "id": 14,
-      "skill_name": "Git",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815178/git_awyj3r.jpg",
-      "category_id": 4
-    },
-    {
-      "id": 15,
+      "id": 9,
       "skill_name": "VS Code",
       "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/vscdoe_ibvnnl.png",
       "category_id": 3
     },
     {
-      "id": 16,
+      "id": 10,
       "skill_name": "Git/GitHub",
       "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815176/github_wfapo6.png",
       "category_id": 3
     },
-    {
-      "id": 17,
-      "skill_name": "Figma",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815174/figma_c62pj1.jpg",
+     {
+      "id": 10,
+      "skill_name": "Unqork",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815176/github_wfapo6.png",
+      "category_id": 3
+    },
+     {
+      "id": 10,
+      "skill_name": "Eigen",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815176/github_wfapo6.png",
+      "category_id": 3
+    },
+     {
+      "id": 10,
+      "skill_name": "Zoho",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815176/github_wfapo6.png",
       "category_id": 3
     }
   ],
@@ -234,36 +202,25 @@
         "id": 1,
         "icon_name": "MdOutlineEmail",
         "label": "Email",
-        "label_value": "mummadikavya180605@gmail.com"
+        "label_value": "vsushma725@gmail.com"
       },
       {
         "id": 2,
-        "icon_name": "MdOutlinePhone",
-        "label": "Phone",
-        "label_value": "+91 9391795732"
-      },
-      {
-        "id": 3,
         "icon_name": "MdLocationOn",
         "label": "Location",
-        "label_value": "Kadapa, Andhra Pradesh, India"
+        "label_value": "Kakinada, Andhra Pradesh, India"
       }
     ],
     "socialMedia": [
       {
         "id": 1,
         "icon_name": "FaGithub",
-        "icon_path": "https://github.com/Kavya-Mummadi"
+        "icon_path": "https://github.com/vasamsettisushma"
       },
       {
         "id": 2,
         "icon_name": "FaLinkedin",
-        "icon_path": "https://www.linkedin.com/in/mummadi-kavya/"
-      },
-      {
-        "id": 3,
-        "icon_name": "FaTwitter",
-        "icon_path": "https://x.com/mummadi_kavya"
+        "icon_path": "https://www.linkedin.com/in/sushma-v-v2424/"
       }
     ]
   }
