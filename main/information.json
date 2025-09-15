@@ -1,0 +1,270 @@
+{
+  "headerItems": [
+    {
+      "id": 1,
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "id": 2,
+      "label": "About Me",
+      "path": "/about-me"
+    },
+    {
+      "id": 3,
+      "label": "Skills",
+      "path": "/skills"
+    },
+    {
+      "id": 4,
+      "label": "Projects",
+      "path": "/projects"
+    },
+    {
+      "id": 5,
+      "label": "Experience",
+      "path": "/experience"
+    },
+    {
+      "id": 6,
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "aboutmeRoles": [
+    {
+      "id": 1,
+      "role_title": "Frontend Development",
+      "role_description": "Creating responsive, interactive web apps with React, ensuring seamless user experiences and clean, efficient code.",
+      "role_icon": "FaCode"
+    },
+    {
+      "id": 2,
+      "role_title": "Backend Development",
+      "role_description": "Developing scalable and efficient server-side applications using Node.js and Express.js.",
+      "role_icon": "FaUser"
+    },
+    {
+      "id": 3,
+      "role_title": "Fullstack Development",
+      "role_description": "Combining frontend and backend skills to deliver complete web solutions.",
+      "role_icon": "FaSuitcase"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Nxt Trendz - Ecommerce Application",
+      "description": "Nxt Trendz is an eCommerce web application inspired by Amazon and Flipkart. Built using React.js, REST APIs, and JWT Authentication, it enables secure login, product browsing, search, filters, and sorting. Implemented state management, protected routes, and local storage for a seamless user experience. Focused on responsive UI and efficient API integration to ensure real-world usability.",
+      "technologies_used": "React JS, JavaScript, Routing, REST API Calls, CSS, Bootstrap, Authentication, Local Storage, JWT Token, Authorization",
+      "project_live_url": "https://nxt-trendz-ecommerce-bice.vercel.app/",
+      "github_url": "https://github.com/Kavya-Mummadi/NxtTrendz",
+      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756820938/Screenshot_2025-09-02_191839_cr7tcy.png"
+    },
+    {
+      "id": 2,
+      "title": "Jobby App – Job Search Platform",
+      "description": "Jobby App is a job searching platform that allows users to browse jobs, view detailed job descriptions, and apply securely. Built with React components, form inputs, and event handlers, it includes pages for Login, Home, Jobs, and Job details. Implemented secure authentication with JWT tokens, REST API calls, and React Router for protected routes. Persisted login sessions using local storage, ensuring a smooth and reliable user experience.",
+      "technologies_used": "React JS, Routing, JavaScript, CSS, REST API Calls, Bootstrap, Local Storage, Authentication, JWT Token, Authorization",
+      "project_live_url": "https://mkjobby.ccbp.tech/",
+      "github_url": "https://github.com/MummadiKavya/JobbyApp",
+      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756825653/Screenshot_2025-09-02_203442_zotjvp.png"
+    },
+    {
+      "id": 3,
+      "title": "NxtWatch – Video Streaming Platform",
+      "description": "NxtWatch is a YouTube-inspired video streaming platform where users can explore Trending, Gaming, and Saved videos, and search for specific content. Built with React components, form inputs, and event handlers, it includes Login, Home, Trending, Gaming, and Saved pages. Secure authentication is implemented using JWT tokens, HTTP API calls, and React Router for protected routes, with sessions persisted in local storage for a smooth, responsive, and engaging experience.",
+      "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls, Local Storage, JWT Token, Authentication, Authorization",
+      "project_live_url": "https://nxtwatch.ccbp.tech/",
+      "github_url": "https://github.com/MummadiKavya/NxtWatch",
+      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1757065661/Screenshot_2025-09-05_151414_kr0kxk.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "company_name": "InternPe",
+      "role": "Web Development Intern",
+      "duration": "July 2024 - Aug 2024",
+      "role_description": "During my Web Development Internship at InternPe, I built responsive web applications using HTML, CSS, and JavaScript, including a To-Do App, E-Commerce site, and Calculator. I focused on creating clean, user-friendly interfaces while strengthening problem-solving and debugging skills. This experience provided practical exposure to professional coding practices and delivering functional, real-world projects. I also collaborated with mentors and peers to optimize code efficiency and ensure cross-browser compatibility. Additionally, I gained hands-on experience in version control, project planning, and implementing best practices for scalable web development.",
+      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_091859_yeot0k.png"
+    },
+    {
+      "id": 2,
+      "company_name": "ExcelR",
+      "role": "MERN Stack Intern",
+      "duration": "May 2025 - July 2025",
+      "role_description": "During my MERN Stack Internship at ExcelR Edtech Pvt. Ltd., organized in collaboration with the Andhra Pradesh State Council of Higher Education, I gained hands-on experience in building full-stack applications using MongoDB, Express.js, React.js, and Node.js. I worked on developing scalable backend APIs, integrating databases, and designing responsive frontend interfaces. This internship allowed me to strengthen my problem-solving abilities, enhance my understanding of modern web technologies, and apply industry-standard coding practices in real-world projects.",
+      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_092037_kr5yzt.png"
+    },
+    {
+      "id": 3,
+      "company_name": "Btech Walleh",
+      "role": "Software Development Intern",
+      "duration": "May 2025 - July 2025",
+      "role_description": "During my 7-week Software Development Internship at Btech Walleh, organized under the AICTE Internship Program, I gained hands-on experience in building and enhancing web applications. I worked on developing backend logic, managing databases, and implementing frontend features to ensure seamless functionality. This internship allowed me to strengthen my problem-solving skills, improve my understanding of software engineering practices, and apply collaborative coding techniques in real-world projects. It provided practical exposure to professional workflows and boosted my confidence in delivering reliable, user-friendly solutions.",
+      "certificate_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756871495/Screenshot_2025-09-03_091925_zorx6a.png"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "skill_name": "HTML",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756810543/html_koxx7u.png",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "skill_name": "CSS",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812681/css-img_jxlsxo.png",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "skill_name": "Bootstrap",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814697/Bootstrapsvg_kv9mpp.png",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "skill_name": "JavaScript",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812784/javascript-img_g9grov.png",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "skill_name": "React.js",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814801/reactjs-img_ze9dml.png",
+      "category_id": 1
+    },
+    {
+      "id": 6,
+      "skill_name": "Python",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813031/python-img_rxl3kb.png",
+      "category_id": 2
+    },
+    {
+      "id": 7,
+      "skill_name": "Express",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815690/expressjs_btzyrk.png",
+      "category_id": 2
+    },
+    {
+      "id": 8,
+      "skill_name": "Node.js",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813030/nodejs-img_kwuwx4.png",
+      "category_id": 2
+    },
+    {
+      "id": 9,
+      "skill_name": "SQLite",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813029/sqlite-img_jy20me.png",
+      "category_id": 2
+    },
+    {
+      "id": 10,
+      "skill_name": "MongoDB",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815393/mongo_xeb3cp.png",
+      "category_id": 2
+    },
+    {
+      "id": 11,
+      "skill_name": "C++",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815337/c_icon_jysha0.png",
+      "category_id": 4
+    },
+    {
+      "id": 12,
+      "skill_name": "DSA",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815778/dsa-icon_pgma8c.jpg",
+      "category_id": 4
+    },
+    {
+      "id": 13,
+      "skill_name": "Flexbox",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/flexbox_oiovj6.png",
+      "category_id": 4
+    },
+    {
+      "id": 14,
+      "skill_name": "Git",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815178/git_awyj3r.jpg",
+      "category_id": 4
+    },
+    {
+      "id": 15,
+      "skill_name": "VS Code",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/vscdoe_ibvnnl.png",
+      "category_id": 3
+    },
+    {
+      "id": 16,
+      "skill_name": "Git/GitHub",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815176/github_wfapo6.png",
+      "category_id": 3
+    },
+    {
+      "id": 17,
+      "skill_name": "Figma",
+      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815174/figma_c62pj1.jpg",
+      "category_id": 3
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": 1,
+      "category_name": "Frontend"
+    },
+    {
+      "id": 2,
+      "category_name": "Backend"
+    },
+    {
+      "id": 3,
+      "category_name": "Tools"
+    },
+    {
+      "id": 4,
+      "category_name": "Others"
+    }
+  ],
+  "getInTouch": {
+    "contactInfo": [
+      {
+        "id": 1,
+        "icon_name": "MdOutlineEmail",
+        "label": "Email",
+        "label_value": "mummadikavya180605@gmail.com"
+      },
+      {
+        "id": 2,
+        "icon_name": "MdOutlinePhone",
+        "label": "Phone",
+        "label_value": "+91 9391795732"
+      },
+      {
+        "id": 3,
+        "icon_name": "MdLocationOn",
+        "label": "Location",
+        "label_value": "Kadapa, Andhra Pradesh, India"
+      }
+    ],
+    "socialMedia": [
+      {
+        "id": 1,
+        "icon_name": "FaGithub",
+        "icon_path": "https://github.com/Kavya-Mummadi"
+      },
+      {
+        "id": 2,
+        "icon_name": "FaLinkedin",
+        "icon_path": "https://www.linkedin.com/in/mummadi-kavya/"
+      },
+      {
+        "id": 3,
+        "icon_name": "FaTwitter",
+        "icon_path": "https://x.com/mummadi_kavya"
+      }
+    ]
+  }
+}
