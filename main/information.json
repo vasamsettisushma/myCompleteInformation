@@ -74,7 +74,7 @@
       "id": 3,
       "title": "portfolio",
       "description": "A modern, responsive, and dynamic portfolio website to showcase my skills, projects, and experiences. Built with a focus on clean design, smooth user interactions, and professional presentation, This portfolio website serves as a personal showcase for my work as a web developer. It highlights my projects, skills, achievements, and provides a smooth contact experience for potential collaborators or employers.",
-      "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls, Local Storage, JWT Token, Authentication, Authorization",
+      "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls",
       "project_live_url": "https://nxtwatch.ccbp.tech/",
       "github_url": "",
       "project_image_url": "https://www.arimetrics.com/wp-content/uploads/2022/04/Portfolio.png"
