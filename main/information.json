@@ -54,8 +54,8 @@
   "projects": [
     {
       "id": 1,
-      "title": "Document processing, particularly through Intelligent Document Processing (IDP)",
-      "description": "Created and maintained APIs for the Allianz Submission Hub Project using Unqork, Eigen and JavaScript, Designed and developed an intelligent PDF viewer within the Unqork platform to display extracted entity data alongside the original document with interactive highlights, Implemented secure document rendering, download, and print functionality using PDF.js, Blob APIs, and custom AngularJS directives, Developed robust logic for scrolling to specific highlights, fallback handling when coordinates are unavailable, and smooth integration with asynchronous data fetching.",
+      "title": "Intelligent Document Processing (IDP)",
+      "description": "Designed and developed an intelligent PDF viewer within the Unqork platform to display extracted entity data alongside the original document with interactive highlights, Implemented secure document rendering, download, and print functionality using PDF.js, Blob APIs, and custom AngularJS directives, Developed robust logic for scrolling to specific highlights, fallback handling when coordinates are unavailable, and smooth integration with asynchronous data fetching.",
       "technologies_used": "Unqork, Eigen, JavaScript, CSS, HTML",
       "project_live_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
       "github_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
