@@ -1,970 +1,968 @@
 {
-  "headerItems": [
-    {
-      "id": 1,
-      "label": "Home",
-      "path": "/"
-    },
-    {
-      "id": 2,
-      "label": "About Me",
-      "path": "/about-me"
-    },
-    {
-      "id": 3,
-      "label": "Skills",
-      "path": "/skills"
-    },
-    {
-      "id": 4,
-      "label": "Projects",
-      "path": "/projects"
-    },
-    {
-      "id": 5,
-      "label": "Experience",
-      "path": "/experience"
-    },
-    {
-      "id": 6,
-      "label": "Contact",
-      "path": "/contact"
-    }
-  ],
-  "aboutmeRoles": [
-    {
-      "id": 1,
-      "role_title": "Frontend Development",
-      "role_description": "Creating responsive, interactive web apps with React, ensuring seamless user experiences and clean, efficient code.",
-      "role_icon": "FaCode"
-    },
-    {
-      "id": 2,
-      "role_title": "Backend Development",
-      "role_description": "Developing scalable and efficient server-side applications using Node.js and Express.js.",
-      "role_icon": "FaUser"
-    },
-    {
-      "id": 3,
-      "role_title": "Fullstack Development",
-      "role_description": "Combining frontend and backend skills to deliver complete web solutions.",
-      "role_icon": "FaSuitcase"
-    }
-  ],
-  "projects": [
-    {
-      "id": 1,
-      "title": "Intelligent Document Processing (IDP)",
-      "description": "Designed and developed an intelligent PDF viewer within the Unqork platform to display extracted entity data alongside the original document with interactive highlights, Implemented secure document rendering, download, and print functionality using PDF.js, Blob APIs, and custom AngularJS directives, Developed robust logic for scrolling to specific highlights, fallback handling when coordinates are unavailable, and smooth integration with asynchronous data fetching.",
-      "technologies_used": "Unqork, Eigen, JavaScript, CSS, HTML",
-      "project_live_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
-      "github_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
-      "project_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRd0CgKE1Hi8q9kFc6lDZEBk8HDlIcRQjlJiEwK8Y5CSls1lC6170Em2U&s"
-    },
-    {
-      "id": 2,
-      "title": "NxtWatch – Video Streaming Platform",
-      "description": " Implemented Next Watch application which is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, saved videos, and can search videos and view specific video details, and users can toggle the theme (Light/Dark).",
-      "technologies_used": "React JS, JavaScript, Routing, REST API Calls, CSS, Bootstrap, Authentication, Local Storage, JWT Token, Authorization",
-      "project_live_url": "https://sushmanxtwatch.ccbp.tech/",
-      "github_url": " https://github.com/vasamsettisushma/myLearningVidoes.git",
-      "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1757065661/Screenshot_2025-09-05_151414_kr0kxk.png"
-    },
-    {
-      "id": 3,
-      "title": "portfolio",
-      "description": "A modern, responsive, and dynamic portfolio website to showcase my skills, projects, and experiences. Built with a focus on clean design, smooth user interactions, and professional presentation, This portfolio website serves as a personal showcase for my work as a web developer. It highlights my projects, skills, achievements, and provides a smooth contact experience for potential collaborators or employers.",
-      "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls",
-      "project_live_url": "https://portfolio-eight-iota-pbfngz40c3.vercel.app/",
-      "github_url": "https://github.com/vasamsettisushma/myPortfolio.git",
-      "project_image_url": "data:image/png;base64,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"
-    }
-  ],
-  "experience": [
-    {
-      "id": 1,
-      "company_name": "Aiden AI",
-      "role": "Software Engineer",
-      "duration": "September 2025 - Present",
-      "role_description": "I am an enthusiastic software developer with 2 year of hands-on-experience in building scalable applications using low-code and no-code platforms like Unqork with Assosiate Certification. Over the past year, I have developed a solid understanding of application design and basic understanding of project creation in ZOHO Pages and ZOHO Creator, workflow automation and Integration with third-party services like Eigen to deliver the next generation in intelligent data extraction and document processing with cutting-edge NLP delivering superior results.",
-      "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
-    },
-    {
-      "id": 2,
-      "company_name": "Acunor",
-      "role": "Software Engineer",
-      "duration": "December 2021 - August 2025",
-      "role_description": "Designed and configured enterprise applications using Unqork no-code platform, reducing development time by 40%. Integrated Unqork workflows with third-party APIs (REST/SOAP) for seamless data exchange. Built dynamic forms, workflows, and dashboards to streamline business processes in insurance and financial domains. Collaborated with cross-functional teams to deliver scalable, production-ready Unqork applications in an Agile environment.",
-      "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
-    }
-  ],
-   "skills": [
-    {
-      "id": 1,
-      "skill_name": "HTML",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756810543/html_koxx7u.png",
-      "category_id": 1
-    },
-    {
-      "id": 2,
-      "skill_name": "CSS",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812681/css-img_jxlsxo.png",
-      "category_id": 1
-    },
-    {
-      "id": 3,
-      "skill_name": "Bootstrap",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814697/Bootstrapsvg_kv9mpp.png",
-      "category_id": 1
-    },
-    {
-      "id": 4,
-      "skill_name": "JavaScript",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812784/javascript-img_g9grov.png",
-      "category_id": 1
-    },
-    {
-      "id": 5,
-      "skill_name": "React.js",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814801/reactjs-img_ze9dml.png",
-      "category_id": 1
-    },
-    {
-      "id": 6,
-      "skill_name": "Python",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813031/python-img_rxl3kb.png",
-      "category_id": 2
-    },
-    {
-      "id": 7,
-      "skill_name": "Express",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815690/expressjs_btzyrk.png",
-      "category_id": 2
-    },
-    {
-      "id": 8,
-      "skill_name": "Node.js",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813030/nodejs-img_kwuwx4.png",
-      "category_id": 2
-    },
-    {
-      "id": 9,
-      "skill_name": "Zoho",
-      "skill_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/ZOHO_New.png/960px-ZOHO_New.png?20231010125053",
-      "category_id": 3
-    },
-    {
-      "id": 10,
-      "skill_name": "MongoDB",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815393/mongo_xeb3cp.png",
-      "category_id": 2
-    },
-    {
-      "id": 11,
-      "skill_name": "Eigen",
-      "skill_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9vRBLRGC_qpMd8UKUNC_XFT6bB4bEpoR0WLkgcq5CyQ1mpur-2jku3A&s",
-      "category_id": 3
-    },
-    {
-      "id": 12,
-      "skill_name": "Unqork",
-      "skill_image": "https://unqork.com/wp-content/uploads/2023/08/unqork-pressrelease-3.png",
-      "category_id": 3
-    },
-    {
-      "id": 13,
-      "skill_name": "Flexbox",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/flexbox_oiovj6.png",
-      "category_id": 4
-    },
-    {
-      "id": 14,
-      "skill_name": "Git",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815178/git_awyj3r.jpg",
-      "category_id": 4
-    },
-    {
-      "id": 15,
-      "skill_name": "VS Code",
-      "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/vscdoe_ibvnnl.png",
-      "category_id": 4
-    }
-  ],
-  "skillCategories": [
-    {
-      "id": 1,
-      "category_name": "Frontend"
-    },
-    {
-      "id": 2,
-      "category_name": "Backend"
-    },
-    {
-      "id": 3,
-      "category_name": "Tools"
-    },
-    {
-      "id": 4,
-      "category_name": "Others"
-    }
-  ],
-  "getInTouch": {
-    "contactInfo": [
-      {
-        "id": 1,
-        "icon_name": "MdOutlineEmail",
-        "label": "Email",
-        "label_value": "vsushma725@gmail.com"
-      },
-      {
-        "id": 2,
-        "icon_name": "MdLocationOn",
-        "label": "Location",
-        "label_value": "Kakinada, Andhra Pradesh, India"
-      }
+    "headerItems": [
+        {
+            "id": 1,
+            "label": "Home",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "label": "About Me",
+            "path": "/about-me"
+        },
+        {
+            "id": 3,
+            "label": "Skills",
+            "path": "/skills"
+        },
+        {
+            "id": 4,
+            "label": "Projects",
+            "path": "/projects"
+        },
+        {
+            "id": 5,
+            "label": "Experience",
+            "path": "/experience"
+        },
+        {
+            "id": 6,
+            "label": "Contact",
+            "path": "/contact"
+        }
     ],
-    "socialMedia": [
-      {
-        "id": 1,
-        "icon_name": "FaGithub",
-        "icon_path": "https://github.com/vasamsettisushma"
-      },
-      {
-        "id": 2,
-        "icon_name": "FaLinkedin",
-        "icon_path": "https://www.linkedin.com/in/sushma-v-v2424/"
-      }
+    "aboutmeRoles": [
+        {
+            "id": 1,
+            "role_title": "Frontend Development",
+            "role_description": "Creating responsive, interactive web apps with React, ensuring seamless user experiences and clean, efficient code.",
+            "role_icon": "FaCode"
+        },
+        {
+            "id": 2,
+            "role_title": "Backend Development",
+            "role_description": "Developing scalable and efficient server-side applications using Node.js and Express.js.",
+            "role_icon": "FaUser"
+        },
+        {
+            "id": 3,
+            "role_title": "Fullstack Development",
+            "role_description": "Combining frontend and backend skills to deliver complete web solutions.",
+            "role_icon": "FaSuitcase"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "Intelligent Document Processing (IDP)",
+            "description": "Designed and developed an intelligent PDF viewer within the Unqork platform to display extracted entity data alongside the original document with interactive highlights, Implemented secure document rendering, download, and print functionality using PDF.js, Blob APIs, and custom AngularJS directives, Developed robust logic for scrolling to specific highlights, fallback handling when coordinates are unavailable, and smooth integration with asynchronous data fetching.",
+            "technologies_used": "Unqork, Eigen, JavaScript, CSS, HTML",
+            "project_live_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
+            "github_url": "https://github.com/vasamsettisushma/myFirstProjectAllianz",
+            "project_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRd0CgKE1Hi8q9kFc6lDZEBk8HDlIcRQjlJiEwK8Y5CSls1lC6170Em2U&s"
+        },
+        {
+            "id": 2,
+            "title": "NxtWatch – Video Streaming Platform",
+            "description": " Implemented Next Watch application which is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, saved videos, and can search videos and view specific video details, and users can toggle the theme (Light/Dark).",
+            "technologies_used": "React JS, JavaScript, Routing, REST API Calls, CSS, Bootstrap, Authentication, Local Storage, JWT Token, Authorization",
+            "project_live_url": "https://sushmanxtwatch.ccbp.tech/",
+            "github_url": " https://github.com/vasamsettisushma/myLearningVidoes.git",
+            "project_image_url": "https://res.cloudinary.com/dmxvdaino/image/upload/v1757065661/Screenshot_2025-09-05_151414_kr0kxk.png"
+        },
+        {
+            "id": 3,
+            "title": "portfolio",
+            "description": "A modern, responsive, and dynamic portfolio website to showcase my skills, projects, and experiences. Built with a focus on clean design, smooth user interactions, and professional presentation, This portfolio website serves as a personal showcase for my work as a web developer. It highlights my projects, skills, achievements, and provides a smooth contact experience for potential collaborators or employers.",
+            "technologies_used": "React JS, Routing, CSS, JavaScript, Bootstrap, REST API Calls",
+            "project_live_url": "https://portfolio-eight-iota-pbfngz40c3.vercel.app/",
+            "github_url": "https://github.com/vasamsettisushma/myPortfolio.git",
+            "project_image_url": "data:image/png;base64,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"
+        }
+    ],
+    "experience": [
+        {
+            "id": 1,
+            "company_name": "Aiden AI",
+            "role": "Software Engineer",
+            "duration": "September 2025 - Present",
+            "role_description": "I am an enthusiastic software developer with 2 year of hands-on-experience in building scalable applications using low-code and no-code platforms like Unqork with Assosiate Certification. Over the past year, I have developed a solid understanding of application design and basic understanding of project creation in ZOHO Pages and ZOHO Creator, workflow automation and Integration with third-party services like Eigen to deliver the next generation in intelligent data extraction and document processing with cutting-edge NLP delivering superior results.",
+            "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
+        },
+        {
+            "id": 2,
+            "company_name": "Acunor",
+            "role": "Software Engineer",
+            "duration": "December 2021 - August 2025",
+            "role_description": "Designed and configured enterprise applications using Unqork no-code platform, reducing development time by 40%. Integrated Unqork workflows with third-party APIs (REST/SOAP) for seamless data exchange. Built dynamic forms, workflows, and dashboards to streamline business processes in insurance and financial domains. Collaborated with cross-functional teams to deliver scalable, production-ready Unqork applications in an Agile environment.",
+            "certificate_url": "https://www.credly.com/badges/439caf94-a30c-4d21-a7fe-8a735569bd93/"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "skill_name": "HTML",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756810543/html_koxx7u.png",
+            "category_id": 1
+        },
+        {
+            "id": 2,
+            "skill_name": "CSS",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812681/css-img_jxlsxo.png",
+            "category_id": 1
+        },
+        {
+            "id": 3,
+            "skill_name": "Bootstrap",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814697/Bootstrapsvg_kv9mpp.png",
+            "category_id": 1
+        },
+        {
+            "id": 4,
+            "skill_name": "JavaScript",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756812784/javascript-img_g9grov.png",
+            "category_id": 1
+        },
+        {
+            "id": 5,
+            "skill_name": "React.js",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756814801/reactjs-img_ze9dml.png",
+            "category_id": 1
+        },
+        {
+            "id": 6,
+            "skill_name": "Python",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813031/python-img_rxl3kb.png",
+            "category_id": 2
+        },
+        {
+            "id": 7,
+            "skill_name": "Express",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815690/expressjs_btzyrk.png",
+            "category_id": 2
+        },
+        {
+            "id": 8,
+            "skill_name": "Node.js",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756813030/nodejs-img_kwuwx4.png",
+            "category_id": 2
+        },
+        {
+            "id": 9,
+            "skill_name": "Zoho",
+            "skill_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/ZOHO_New.png/960px-ZOHO_New.png?20231010125053",
+            "category_id": 3
+        },
+        {
+            "id": 10,
+            "skill_name": "MongoDB",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815393/mongo_xeb3cp.png",
+            "category_id": 2
+        },
+        {
+            "id": 11,
+            "skill_name": "Eigen",
+            "skill_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs9vRBLRGC_qpMd8UKUNC_XFT6bB4bEpoR0WLkgcq5CyQ1mpur-2jku3A&s",
+            "category_id": 3
+        },
+        {
+            "id": 12,
+            "skill_name": "Unqork",
+            "skill_image": "https://unqork.com/wp-content/uploads/2023/08/unqork-pressrelease-3.png",
+            "category_id": 3
+        },
+        {
+            "id": 13,
+            "skill_name": "Flexbox",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/flexbox_oiovj6.png",
+            "category_id": 4
+        },
+        {
+            "id": 14,
+            "skill_name": "Git",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815178/git_awyj3r.jpg",
+            "category_id": 4
+        },
+        {
+            "id": 15,
+            "skill_name": "VS Code",
+            "skill_image": "https://res.cloudinary.com/dmxvdaino/image/upload/v1756815175/vscdoe_ibvnnl.png",
+            "category_id": 4
+        }
+    ],
+    "skillCategories": [
+        {
+            "id": 1,
+            "category_name": "Frontend"
+        },
+        {
+            "id": 2,
+            "category_name": "Backend"
+        },
+        {
+            "id": 3,
+            "category_name": "Tools"
+        },
+        {
+            "id": 4,
+            "category_name": "Others"
+        }
+    ],
+    "getInTouch": {
+        "contactInfo": [
+            {
+                "id": 1,
+                "icon_name": "MdOutlineEmail",
+                "label": "Email",
+                "label_value": "vsushma725@gmail.com"
+            },
+            {
+                "id": 2,
+                "icon_name": "MdLocationOn",
+                "label": "Location",
+                "label_value": "Kakinada, Andhra Pradesh, India"
+            }
+        ],
+        "socialMedia": [
+            {
+                "id": 1,
+                "icon_name": "FaGithub",
+                "icon_path": "https://github.com/vasamsettisushma"
+            },
+            {
+                "id": 2,
+                "icon_name": "FaLinkedin",
+                "icon_path": "https://www.linkedin.com/in/sushma-v-v2424/"
+            }
+        ]
+    },
+    "userDetails": [
+        {
+            "password": "rahul@2021",
+            "username": "rahul"
+        },
+        {
+            "password": "sushma@24",
+            "username": "sushma"
+        }
+    ],
+    "videos": [
+        {
+            "id": "30b642bd-7591-49f4-ac30-5c538f975b15",
+            "title": "Sehwag shares his batting experience in iB Cricket | iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-1-img.png",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.4K",
+            "published_at": "Apr 19, 2019"
+        },
+        {
+            "id": "606f5b7b-9208-4eb2-a68c-1eb5faef4268",
+            "title": "Yellow Strikers are Ready to Strike Big | Watch it on Viu | iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-2-img.png",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "2K",
+            "published_at": "Mar 14, 2019"
+        },
+        {
+            "id": "2fd4fa94-f8a1-4508-87e9-7cdd279c4a1f",
+            "title": "Blue Blasters are ready | iB Cricket Super Over League | watch it on Viu",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-3-img.png",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "2.1K",
+            "published_at": "Mar 14, 2019"
+        },
+        {
+            "id": "6114fac6-44ff-47f8-82df-3426715e0b56",
+            "title": "Sam Billings having fun with Virtual Reality Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-4-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "3.6K",
+            "published_at": "Jan 30, 2019"
+        },
+        {
+            "id": "51b73ec6-7cdb-4e6f-b290-868387ada97a",
+            "title": "Stephen Fleming takes on Morne Morkel in VR Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-5-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "3.2K",
+            "published_at": "Jan 23, 2019"
+        },
+        {
+            "id": "420f102e-1734-4468-8d3c-797134c505b0",
+            "title": "Best of Virender Sehwag in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-6-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "2.3K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "f1c2182d-568c-47de-89ff-fd612f0bd99d",
+            "title": "Best of Suresh Raina in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-7-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "2.9K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "72274854-be1c-4ffd-9788-1e5d3c2d600c",
+            "title": "Best of VVS Laxman in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-8-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "10dcb8df-11b3-4f70-9690-4a8929b89816",
+            "title": "Best of Prithvi Shaw in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-9-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.1K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "66b857d7-9c62-496e-8404-88a6a1ccc295",
+            "title": "Best of Mohammad Kaif in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-10-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "45K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "c965db6b-5e7f-4541-8412-e4e7e7912399",
+            "title": "Best of Brendon McCullum in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-11-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.6K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "7650d552-1d4a-40e4-bcf8-1c13d78b38c1",
+            "title": "Best of Andre Russell in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-12-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.4K",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "7f280933-f36b-4d2f-8f4f-b31b089c8f78",
+            "title": "Best of Chris Lynn in iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-13-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "675",
+            "published_at": "Jun 27, 2019"
+        },
+        {
+            "id": "268f94b2-ed0c-4f49-a743-0de35d1f2294",
+            "title": "iB Cricket winning hearts across the world | Virtual Reality Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-14-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "5.4K",
+            "published_at": "Jun 1, 2019"
+        },
+        {
+            "id": "2c79fe02-67b8-45f7-b835-aa4971f5c4df",
+            "title": "iB Cricket | The World's Most Immersive Virtual Reality Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-15-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "8.6K",
+            "published_at": "Jan 31, 2019"
+        },
+        {
+            "id": "2ebc17f9-fba5-4b24-9f5e-7e12137bb902",
+            "title": "Fans playing with Rajasthan Royals stars | RR - iB Cricket Fan Tour | Rahane, Unadkat, Smith, Butler",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-3-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "2.5K",
+            "published_at": "May 27, 2019"
+        },
+        {
+            "id": "a25b246c-5b18-44dc-a832-6007c06397af",
+            "title": "iB Cricket - A New Format of Cricket in Virtual Reality",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "21K",
+            "published_at": "Feb 27, 2018"
+        },
+        {
+            "id": "9a4d9c25-34af-44c8-898e-6bc4ba6c24a4",
+            "title": "Fans playing cricket with CSK Stars | CSK - iB Cricket Fan Tour | MS Dhoni, Raina, Jadeja, Watson",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "6.2K",
+            "published_at": "May 11, 2019"
+        },
+        {
+            "id": "a294b662-2ae5-408d-93b1-7c8dbe4412fb",
+            "title": "A ROYAL evening for RR stars with iB Cricket | Ajinkya Rahane, Sanju Samson, Jaydev Unadkat.",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "3.9K",
+            "published_at": "May 9, 2019"
+        },
+        {
+            "id": "5d7c6c4d-6ab2-48f4-af2d-5c6846180cc7",
+            "title": "Mohammad Kaif and Brendon McCullum on fielding in iB Cricket | iB Cricket Super Over League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-16-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.9K",
+            "published_at": "Apr 19, 2019"
+        },
+        {
+            "id": "1f44125f-eeb0-40a7-a2bf-3c8f64e5a17a",
+            "title": "iB Cricket Super Over League Official Announcement | World’s First Virtual Reality Cricket League",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "30K",
+            "published_at": "Feb 21, 2019"
+        },
+        {
+            "id": "8d308548-9496-448a-b10f-70b173f87e68",
+            "title": "Play 360 degrees in iB Cricket - World's Most Immersive VR Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "231",
+            "published_at": "Aug 2, 2021"
+        },
+        {
+            "id": "e2df788b-ae68-465c-8a3c-b5701d3f9c5b",
+            "title": "Announcing iB Cricket Home Edition",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "287",
+            "published_at": "Jul 27, 2021"
+        },
+        {
+            "id": "beb03ef7-d8dc-4654-bf3f-fbbcc8523966",
+            "title": "iB Cricket - World's most immersive VR Cricket",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "427",
+            "published_at": "Jul 24, 2021"
+        },
+        {
+            "id": "716142b5-fc5c-4a10-b29d-cb746258161c",
+            "title": "iB Cricket Gameplay!! Numerous bowling styles, realistic animations, massive shots & more..",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-17-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "701",
+            "published_at": "Apr 16, 2021"
+        },
+        {
+            "id": "1cc3a158-6751-4a39-ae6f-c63a72108f12",
+            "title": "Me, Dad & Cricket || Happy Father's Day 2020",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.4K",
+            "published_at": "Jun 21, 2020"
+        },
+        {
+            "id": "e5cb5fc4-102a-4a8a-a8d7-f19a5b11fa7b",
+            "title": "Indian Moms and Cricket | Their Advice to Kids",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-mothersday-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "583",
+            "published_at": "May 10, 2020"
+        },
+        {
+            "id": "e1e964ef-e0d0-44ac-8797-28832ce64e23",
+            "title": "iB Cricket energizing corporate employees across the world",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-corporates-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "1.9K",
+            "published_at": "Mar 11, 2020"
+        },
+        {
+            "id": "616c16fe-b98a-4397-9a59-74cdd7b9bfb7",
+            "title": "iB Cricket - IPL Fan Tours mesmerized cricket fans across India | RCB, CSK, KKR, RR and DC",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-4-img.png",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "5.7K",
+            "published_at": "Jul 1, 2019"
+        },
+        {
+            "id": "82832be4-a4d0-4613-bf9a-3a0bb3bf7bab",
+            "title": "Fans playing with RCB stars in iB Cricket | RCB - iB Cricket Fan Tour | Virat Kohli, Ab De Villers",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-5-img.png",
+            "channel": {
+                "name": "iB Cricket",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
+            },
+            "view_count": "3.4K",
+            "published_at": "Jun 1, 2019"
+        },
+        {
+            "id": "ad9822d2-5763-41d9-adaf-baf9da3fd490",
+            "title": "iB Hubs Announcement Event",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "26K",
+            "published_at": "Nov 29, 2016"
+        },
+        {
+            "id": "89383330-f76c-4ca4-b13b-9b3e9bf8a808",
+            "title": "A welcoming interaction with Hyderabad startup community : iB Hubs",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-startup-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "9.6K",
+            "published_at": "Sep 22, 2016"
+        },
+        {
+            "id": "f3da2507-4ff5-41d0-b6d7-e796df01de25",
+            "title": "iB Group Vision | Transforming India - From a Land of Potential to a Land of Opportunity",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-thumbnail-img.png",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "13.5K",
+            "published_at": "Jan 22, 2018"
+        },
+        {
+            "id": "8329b21b-44f2-4229-b4b0-4b7311513526",
+            "title": "Social Entrepreneurship - A Practitioner's view Satish Burra",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talk-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "2.4K",
+            "published_at": "Nov 3, 2016"
+        },
+        {
+            "id": "8884c12a-96f7-4f64-843d-d3ecde8eeb4f",
+            "title": "iB Hubs IoT Bootcamp | End-to-End training in IoT with AR/VR - Blockchain - Security integrations",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-iot-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "8.9K",
+            "published_at": "Jul 30, 2017"
+        },
+        {
+            "id": "f3dc2b15-7c71-4ddb-94f1-3f2c86f9751f",
+            "title": "iB Hubs Super 30 Aftermovie | Honouring Teachers Across India | Teachers Day",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "6.9K",
+            "published_at": "Sep 5, 2020"
+        },
+        {
+            "id": "4b42d8a0-5a9d-499e-bfca-f8a68f6d3bf6",
+            "title": "iB Hubs Super 30 - Grand Felicitation - Mr. Nurul Islam",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-islam-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "15.7K",
+            "published_at": "Oct 25, 2019"
+        },
+        {
+            "id": "ea0a9be4-d94a-41db-82bf-044d8915d6cf",
+            "title": "Innovation drives India into future - says Shri Amitabh Kant",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talks-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "2.4K",
+            "published_at": "Nov 16, 201"
+        },
+        {
+            "id": "018f8cbf-ecc6-403b-96c5-b15736328818",
+            "title": "iB Hubs Startup School - Student Acceleration Program | Future Begins Here | 2021 Edition",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-student-startup-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "2.8K",
+            "published_at": "Apr 7, 2021"
+        },
+        {
+            "id": "d54bee30-49a5-424f-aebe-7719500a5698",
+            "title": "iB Hubs Super 30 | Honouring the teachers who shape the generations",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "8.4K",
+            "published_at": "Jul 23, 2019"
+        },
+        {
+            "id": "e426dbb7-cf95-42cb-aca8-9f4d3194b256",
+            "title": "iB Hubs IoT Bootcamp 2018",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-bootcamp-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "1.5K",
+            "published_at": "Dec 31, 2018"
+        },
+        {
+            "id": "c049fa98-d91b-43d5-84d6-f57af0b5de6c",
+            "title": "Journey of a Social Entrepreneur - Talk by Ms. Mukti K Bosco",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "iB Hubs",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
+            },
+            "view_count": "823",
+            "published_at": "Nov 1, 2016"
+        },
+        {
+            "id": "6fcf2fe2-8cb8-4693-9ee8-45e09f9d2b30",
+            "title": "5 Things you need to know to get high-paying jobs | CCBP 4.0 | NxtWave",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-motivation-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "6.5K",
+            "published_at": "May 22, 2021"
+        },
+        {
+            "id": "80ef9ba0-61ef-4e65-9f3c-506bfda7e74e",
+            "title": "For the 1st time in my village, a girl graduated and got an IT job | Shobha | NxtWave CCBP Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-1-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "1K",
+            "published_at": "Aug 2, 2021"
+        },
+        {
+            "id": "a7b783bd-73d8-4b21-bc41-9a00ba015f3d",
+            "title": "Fortunate to learn about 4.0 technologies in my B.Tech 1st year | Student Community | NxtWave Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "21K",
+            "published_at": "Jul 17, 2021"
+        },
+        {
+            "id": "b5f11f30-0b42-4b20-b228-40b611fa463e",
+            "title": "[Telugu] A Parent's heartfelt review of the NxtWave CCBP Program",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-3-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "2.4K",
+            "published_at": "Jul 31, 2021"
+        },
+        {
+            "id": "fce38366-577c-42a2-9886-312d38e2bd56",
+            "title": "6 Year Career Gap to a Software Engineer | NxtWave - CCBP | Bhavya Success Story",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-4-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "1.8K",
+            "published_at": "Aug 12, 2021"
+        },
+        {
+            "id": "9d784e89-4d4f-465c-a933-1d03f3a112cb",
+            "title": "From Civil Engineer to Full Stack Developer in 4 months | NxtWave & CCBP 4.0 | Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-5-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "10.2K",
+            "published_at": "Apr 19, 2021"
+        },
+        {
+            "id": "79ddf1f3-65ce-4464-be83-775a8f6a0e5f",
+            "title": "From a struggling coder to a high-paid tech job | NxtWave - CCBP 4.0 | Success - Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-6-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "5K",
+            "published_at": "May 24, 2021"
+        },
+        {
+            "id": "d1d89ac3-9652-450a-ad6c-2eed76a894d4",
+            "title": "[Telugu] I recommend every parent to provide CCBP to their Children | NxtWave Parents Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-7-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "6K",
+            "published_at": "Aug 6, 2021"
+        },
+        {
+            "id": "336ef790-5a13-4a43-b7d8-b24866fa9c9d",
+            "title": "[Telugu] An ECE graduate to an Associate Software Engineer | NxtWave - CCBP 4.0 | Success - Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-8-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "3.5K",
+            "published_at": "Jun 24, 2021"
+        },
+        {
+            "id": "4c9d11ec-5d49-4a8e-be31-a40955074b7b",
+            "title": "Bootcamp gave me deeper insights on emerging technologies | NxtWave - Student Community | Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-9-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "910",
+            "published_at": "Jul 12, 2021"
+        },
+        {
+            "id": "85afde7d-a685-4a5f-ad2f-c3fc516b2e42",
+            "title": "Bootcamp gave me 360 degrees knowledge on IoT | NxtWave - Student Community | Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-10-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "597",
+            "published_at": "Jul 5, 2021"
+        },
+        {
+            "id": "c3f9625a-9c01-408d-b6c4-57117d62ee35",
+            "title": "Bootcamp boosted my knowledge in AI/ML & Cybersecurity | NxtWave - Student Community | Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-11-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "9K",
+            "published_at": "Jul 4, 2021"
+        },
+        {
+            "id": "a9bdf0ed-05e4-407e-b2bb-8a29d4c36ac8",
+            "title": "[Telugu] Overcame fears with mock interviews and cleared my job interview| NxtWave| Yashwanth Review",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-12-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "4.5K",
+            "published_at": "Sep 1, 2021"
+        },
+        {
+            "id": "0f6e0294-0cb4-47ec-bba5-981fd9fff86e",
+            "title": "[Telugu]Coding practices & cheat-sheets made me competent for projects | CCBP 4.0 Review |Sudharshan",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-13-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "NxtWave",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
+            },
+            "view_count": "2K",
+            "published_at": "Sep 2, 2021"
+        },
+        {
+            "id": "00780a5b-0b73-4cbe-91c6-91371fd8f078",
+            "title": "The Things Conference India 2018 | After Movie",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "CyberEye",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+            },
+            "view_count": "75K",
+            "published_at": "Apr 23, 2020"
+        },
+        {
+            "id": "330f1c47-2608-452a-ad65-e0d9b159d00c",
+            "title": "The Things Conference India 2019 | After Movie",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "CyberEye",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+            },
+            "view_count": "23K",
+            "published_at": "Apr 23, 2020"
+        },
+        {
+            "id": "9420a07a-df83-419e-a46e-ed308103e829",
+            "title": "Avinash Dara, CyberEye | Smart Campus - A Deployment Perspective | The Things Virtual Conference",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-cyber-eye-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "CyberEye",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
+            },
+            "view_count": "23K",
+            "published_at": "Apr 23, 2020"
+        },
+        {
+            "id": "f163fd54-0f08-4cc1-a5aa-308f27132cc6",
+            "title": "The Things Conference India 2019 After Movie",
+            "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
+            "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview",
+            "channel": {
+                "name": "The Things Network",
+                "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/the-things-network-img.png"
+            },
+            "view_count": "2.6K",
+            "published_at": "Oct 23, 2019"
+        }
     ]
-  },
-  "userDetails": [
-    {
-      "password": "rahul@2021",
-      "username": "rahul"
-    },
-
-    {
-      "password": "sushma@24",
-      "username": "sushma"
-    }
-  ],
-   "videos": [
-    {
-      "id": "30b642bd-7591-49f4-ac30-5c538f975b15",
-      "title": "Sehwag shares his batting experience in iB Cricket | iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-1-img.png",
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.4K",
-      "published_at": "Apr 19, 2019"
-    },
-    {
-      "id": "606f5b7b-9208-4eb2-a68c-1eb5faef4268",
-      "title": "Yellow Strikers are Ready to Strike Big | Watch it on Viu | iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-2-img.png",
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "2K",
-      "published_at": "Mar 14, 2019"
-    },
-    {
-      "id": "2fd4fa94-f8a1-4508-87e9-7cdd279c4a1f",
-      "title": "Blue Blasters are ready | iB Cricket Super Over League | watch it on Viu",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-3-img.png",
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "2.1K",
-      "published_at": "Mar 14, 2019"
-    },
-    {
-      "id": "6114fac6-44ff-47f8-82df-3426715e0b56",
-      "title": "Sam Billings having fun with Virtual Reality Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-4-img.png",
-       "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "3.6K",
-      "published_at": "Jan 30, 2019"
-    },
-    {
-      "id": "51b73ec6-7cdb-4e6f-b290-868387ada97a",
-      "title": "Stephen Fleming takes on Morne Morkel in VR Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-5-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "3.2K",
-      "published_at": "Jan 23, 2019"
-    },
-    {
-      "id": "420f102e-1734-4468-8d3c-797134c505b0",
-      "title": "Best of Virender Sehwag in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-6-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "2.3K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "f1c2182d-568c-47de-89ff-fd612f0bd99d",
-      "title": "Best of Suresh Raina in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-7-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "2.9K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "72274854-be1c-4ffd-9788-1e5d3c2d600c",
-      "title": "Best of VVS Laxman in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-8-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "10dcb8df-11b3-4f70-9690-4a8929b89816",
-      "title": "Best of Prithvi Shaw in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-9-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.1K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "66b857d7-9c62-496e-8404-88a6a1ccc295",
-      "title": "Best of Mohammad Kaif in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-10-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "45K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "c965db6b-5e7f-4541-8412-e4e7e7912399",
-      "title": "Best of Brendon McCullum in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-11-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.6K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "7650d552-1d4a-40e4-bcf8-1c13d78b38c1",
-      "title": "Best of Andre Russell in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-12-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.4K",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "7f280933-f36b-4d2f-8f4f-b31b089c8f78",
-      "title": "Best of Chris Lynn in iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-13-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "675",
-      "published_at": "Jun 27, 2019"
-    },
-    {
-      "id": "268f94b2-ed0c-4f49-a743-0de35d1f2294",
-      "title": "iB Cricket winning hearts across the world | Virtual Reality Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-14-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "5.4K",
-      "published_at": "Jun 1, 2019"
-    },
-    {
-      "id": "2c79fe02-67b8-45f7-b835-aa4971f5c4df",
-      "title": "iB Cricket | The World's Most Immersive Virtual Reality Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-15-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "8.6K",
-      "published_at": "Jan 31, 2019"
-    },
-    {
-      "id": "2ebc17f9-fba5-4b24-9f5e-7e12137bb902",
-      "title": "Fans playing with Rajasthan Royals stars | RR - iB Cricket Fan Tour | Rahane, Unadkat, Smith, Butler",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-3-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "2.5K",
-      "published_at": "May 27, 2019"
-    },
-    {
-      "id": "a25b246c-5b18-44dc-a832-6007c06397af",
-      "title": "iB Cricket - A New Format of Cricket in Virtual Reality",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "21K",
-      "published_at": "Feb 27, 2018"
-    },
-    {
-      "id": "9a4d9c25-34af-44c8-898e-6bc4ba6c24a4",
-      "title": "Fans playing cricket with CSK Stars | CSK - iB Cricket Fan Tour | MS Dhoni, Raina, Jadeja, Watson",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "6.2K",
-      "published_at": "May 11, 2019"
-    },
-    {
-      "id": "a294b662-2ae5-408d-93b1-7c8dbe4412fb",
-      "title": "A ROYAL evening for RR stars with iB Cricket | Ajinkya Rahane, Sanju Samson, Jaydev Unadkat.",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "3.9K",
-      "published_at": "May 9, 2019"
-    },
-    {
-      "id": "5d7c6c4d-6ab2-48f4-af2d-5c6846180cc7",
-      "title": "Mohammad Kaif and Brendon McCullum on fielding in iB Cricket | iB Cricket Super Over League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-16-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.9K",
-      "published_at": "Apr 19, 2019"
-    },
-    {
-      "id": "1f44125f-eeb0-40a7-a2bf-3c8f64e5a17a",
-      "title": "iB Cricket Super Over League Official Announcement | World’s First Virtual Reality Cricket League",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "30K",
-      "published_at": "Feb 21, 2019"
-    },
-    {
-      "id": "8d308548-9496-448a-b10f-70b173f87e68",
-      "title": "Play 360 degrees in iB Cricket - World's Most Immersive VR Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "231",
-      "published_at": "Aug 2, 2021"
-    },
-    {
-      "id": "e2df788b-ae68-465c-8a3c-b5701d3f9c5b",
-      "title": "Announcing iB Cricket Home Edition",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "287",
-      "published_at": "Jul 27, 2021"
-    },
-    {
-      "id": "beb03ef7-d8dc-4654-bf3f-fbbcc8523966",
-      "title": "iB Cricket - World's most immersive VR Cricket",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-vsport-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "427",
-      "published_at": "Jul 24, 2021"
-    },
-    {
-      "id": "716142b5-fc5c-4a10-b29d-cb746258161c",
-      "title": "iB Cricket Gameplay!! Numerous bowling styles, realistic animations, massive shots & more..",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-sol-17-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "701",
-      "published_at": "Apr 16, 2021"
-    },
-    {
-      "id": "1cc3a158-6751-4a39-ae6f-c63a72108f12",
-      "title": "Me, Dad & Cricket || Happy Father's Day 2020",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-announce-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.4K",
-      "published_at": "Jun 21, 2020"
-    },
-    {
-      "id": "e5cb5fc4-102a-4a8a-a8d7-f19a5b11fa7b",
-      "title": "Indian Moms and Cricket | Their Advice to Kids",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-mothersday-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "583",
-      "published_at": "May 10, 2020"
-    },
-    {
-      "id": "e1e964ef-e0d0-44ac-8797-28832ce64e23",
-      "title": "iB Cricket energizing corporate employees across the world",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-corporates-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "1.9K",
-      "published_at": "Mar 11, 2020"
-    },
-    {
-      "id": "616c16fe-b98a-4397-9a59-74cdd7b9bfb7",
-      "title": "iB Cricket - IPL Fan Tours mesmerized cricket fans across India | RCB, CSK, KKR, RR and DC",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-4-img.png",
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "5.7K",
-      "published_at": "Jul 1, 2019"
-    },
-    {
-      "id": "82832be4-a4d0-4613-bf9a-3a0bb3bf7bab",
-      "title": "Fans playing with RCB stars in iB Cricket | RCB - iB Cricket Fan Tour | Virat Kohli, Ab De Villers",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibc-fans-tour-5-img.png",
-      "channel": {
-        "name": "iB Cricket",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-cricket-img.png"
-      },
-      "view_count": "3.4K",
-      "published_at": "Jun 1, 2019"
-    },
-    {
-      "id": "ad9822d2-5763-41d9-adaf-baf9da3fd490",
-      "title": "iB Hubs Announcement Event",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "26K",
-      "published_at": "Nov 29, 2016"
-    },
-    {
-      "id": "89383330-f76c-4ca4-b13b-9b3e9bf8a808",
-      "title": "A welcoming interaction with Hyderabad startup community : iB Hubs",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-startup-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "9.6K",
-      "published_at": "Sep 22, 2016"
-    },
-    {
-      "id": "f3da2507-4ff5-41d0-b6d7-e796df01de25",
-      "title": "iB Group Vision | Transforming India - From a Land of Potential to a Land of Opportunity",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-thumbnail-img.png",
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "13.5K",
-      "published_at": "Jan 22, 2018"
-    },
-    {
-      "id": "8329b21b-44f2-4229-b4b0-4b7311513526",
-      "title": "Social Entrepreneurship - A Practitioner's view Satish Burra",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talk-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "2.4K",
-      "published_at": "Nov 3, 2016"
-    },
-    {
-      "id": "8884c12a-96f7-4f64-843d-d3ecde8eeb4f",
-      "title": "iB Hubs IoT Bootcamp | End-to-End training in IoT with AR/VR - Blockchain - Security integrations",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-iot-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "8.9K",
-      "published_at": "Jul 30, 2017"
-    },
-    {
-      "id": "f3dc2b15-7c71-4ddb-94f1-3f2c86f9751f",
-      "title": "iB Hubs Super 30 Aftermovie | Honouring Teachers Across India | Teachers Day",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "6.9K",
-      "published_at": "Sep 5, 2020"
-    },
-    {
-      "id": "4b42d8a0-5a9d-499e-bfca-f8a68f6d3bf6",
-      "title": "iB Hubs Super 30 - Grand Felicitation - Mr. Nurul Islam",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-islam-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "15.7K",
-      "published_at": "Oct 25, 2019"
-    },
-    {
-      "id": "ea0a9be4-d94a-41db-82bf-044d8915d6cf",
-      "title": "Innovation drives India into future - says Shri Amitabh Kant",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-talks-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "2.4K",
-      "published_at": "Nov 16, 201"
-    },
-    {
-      "id": "018f8cbf-ecc6-403b-96c5-b15736328818",
-      "title": "iB Hubs Startup School - Student Acceleration Program | Future Begins Here | 2021 Edition",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-student-startup-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "2.8K",
-      "published_at": "Apr 7, 2021"
-    },
-    {
-      "id": "d54bee30-49a5-424f-aebe-7719500a5698",
-      "title": "iB Hubs Super 30 | Honouring the teachers who shape the generations",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-super-30-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "8.4K",
-      "published_at": "Jul 23, 2019"
-    },
-    {
-      "id": "e426dbb7-cf95-42cb-aca8-9f4d3194b256",
-      "title": "iB Hubs IoT Bootcamp 2018",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-bootcamp-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "1.5K",
-      "published_at": "Dec 31, 2018"
-    },
-    {
-      "id": "c049fa98-d91b-43d5-84d6-f57af0b5de6c",
-      "title": "Journey of a Social Entrepreneur - Talk by Ms. Mukti K Bosco",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ibhubs-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "iB Hubs",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/ib-hubs-img.png"
-      },
-      "view_count": "823",
-      "published_at": "Nov 1, 2016"
-    },
-    {
-      "id": "6fcf2fe2-8cb8-4693-9ee8-45e09f9d2b30",
-      "title": "5 Things you need to know to get high-paying jobs | CCBP 4.0 | NxtWave",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-motivation-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "6.5K",
-      "published_at": "May 22, 2021"
-    },
-    {
-      "id": "80ef9ba0-61ef-4e65-9f3c-506bfda7e74e",
-      "title": "For the 1st time in my village, a girl graduated and got an IT job | Shobha | NxtWave CCBP Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-1-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "1K",
-      "published_at": "Aug 2, 2021"
-    },
-    {
-      "id": "a7b783bd-73d8-4b21-bc41-9a00ba015f3d",
-      "title": "Fortunate to learn about 4.0 technologies in my B.Tech 1st year | Student Community | NxtWave Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "21K",
-      "published_at": "Jul 17, 2021"
-    },
-    {
-      "id": "b5f11f30-0b42-4b20-b228-40b611fa463e",
-      "title": "[Telugu] A Parent's heartfelt review of the NxtWave CCBP Program",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-3-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "2.4K",
-      "published_at": "Jul 31, 2021"
-    },
-    {
-      "id": "fce38366-577c-42a2-9886-312d38e2bd56",
-      "title": "6 Year Career Gap to a Software Engineer | NxtWave - CCBP | Bhavya Success Story",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-4-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "1.8K",
-      "published_at": "Aug 12, 2021"
-    },
-    {
-      "id": "9d784e89-4d4f-465c-a933-1d03f3a112cb",
-      "title": "From Civil Engineer to Full Stack Developer in 4 months | NxtWave & CCBP 4.0 | Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-5-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "10.2K",
-      "published_at": "Apr 19, 2021"
-    },
-    {
-      "id": "79ddf1f3-65ce-4464-be83-775a8f6a0e5f",
-      "title": "From a struggling coder to a high-paid tech job | NxtWave - CCBP 4.0 | Success - Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-6-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "5K",
-      "published_at": "May 24, 2021"
-    },
-    {
-      "id": "d1d89ac3-9652-450a-ad6c-2eed76a894d4",
-      "title": "[Telugu] I recommend every parent to provide CCBP to their Children | NxtWave Parents Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-7-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "6K",
-      "published_at": "Aug 6, 2021"
-    },
-    {
-      "id": "336ef790-5a13-4a43-b7d8-b24866fa9c9d",
-      "title": "[Telugu] An ECE graduate to an Associate Software Engineer | NxtWave - CCBP 4.0 | Success - Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-8-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "3.5K",
-      "published_at": "Jun 24, 2021"
-    },
-    {
-      "id": "4c9d11ec-5d49-4a8e-be31-a40955074b7b",
-      "title": "Bootcamp gave me deeper insights on emerging technologies | NxtWave - Student Community | Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-9-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "910",
-      "published_at": "Jul 12, 2021"
-    },
-    {
-      "id": "85afde7d-a685-4a5f-ad2f-c3fc516b2e42",
-      "title": "Bootcamp gave me 360 degrees knowledge on IoT | NxtWave - Student Community | Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-10-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "597",
-      "published_at": "Jul 5, 2021"
-    },
-    {
-      "id": "c3f9625a-9c01-408d-b6c4-57117d62ee35",
-      "title": "Bootcamp boosted my knowledge in AI/ML & Cybersecurity | NxtWave - Student Community | Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-11-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "9K",
-      "published_at": "Jul 4, 2021"
-    },
-    {
-      "id": "a9bdf0ed-05e4-407e-b2bb-8a29d4c36ac8",
-      "title": "[Telugu] Overcame fears with mock interviews and cleared my job interview| NxtWave| Yashwanth Review",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-12-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "4.5K",
-      "published_at": "Sep 1, 2021"
-    },
-    {
-      "id": "0f6e0294-0cb4-47ec-bba5-981fd9fff86e",
-      "title": "[Telugu]Coding practices & cheat-sheets made me competent for projects | CCBP 4.0 Review |Sudharshan",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxtwave-success-13-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "NxtWave",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/nxt-wave-img.png"
-      },
-      "view_count": "2K",
-      "published_at": "Sep 2, 2021"
-    },
-    {
-      "id": "00780a5b-0b73-4cbe-91c6-91371fd8f078",
-      "title": "The Things Conference India 2018 | After Movie",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "CyberEye",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
-      },
-      "view_count": "75K",
-      "published_at": "Apr 23, 2020"
-    },
-    {
-      "id": "330f1c47-2608-452a-ad65-e0d9b159d00c",
-      "title": "The Things Conference India 2019 | After Movie",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "CyberEye",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
-      },
-      "view_count": "23K",
-      "published_at": "Apr 23, 2020"
-    },
-    {
-      "id": "9420a07a-df83-419e-a46e-ed308103e829",
-      "title": "Avinash Dara, CyberEye | Smart Campus - A Deployment Perspective | The Things Virtual Conference",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-cyber-eye-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "CyberEye",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/cyber-eye-img.png"
-      },
-      "view_count": "23K",
-      "published_at": "Apr 23, 2020"
-    },
-    {
-      "id": "f163fd54-0f08-4cc1-a5aa-308f27132cc6",
-      "title": "The Things Conference India 2019 After Movie",
-      "thumbnail_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/things-conference-2-img.png",
-        "video_url": "https://drive.google.com/file/d/10A_UdT5rqYTv3FEy6LgLihSS_p0J71E3/preview", 
-      "channel": {
-        "name": "The Things Network",
-        "profile_image_url": "https://assets.ccbp.in/frontend/react-js/nxt-watch/the-things-network-img.png"
-      },
-      "view_count": "2.6K",
-      "published_at": "Oct 23, 2019"
-    }
-  ]
 }
-
