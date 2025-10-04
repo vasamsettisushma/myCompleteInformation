@@ -235,5 +235,16 @@
         "icon_path": "https://www.linkedin.com/in/sushma-v-v2424/"
       }
     ]
-  }
+  },
+  "userDetails": [
+    {
+      "password": "rahul@2021",
+      "username": "rahul"
+    },
+
+    {
+      "password": "sushma@24",
+      "username": "sushma"
+    }
+  ]
 }
